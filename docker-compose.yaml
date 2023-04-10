@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    image: chat-web-image
+    build:
+      context: .
+    container_name: chat-web-api
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./.env
+    environment:
+      PUBLIC_AUTHORIZATION: '${PUBLIC_AUTHORIZATION}'
+      PUBLIC_API_URL: '${PUBLIC_API_URL}'

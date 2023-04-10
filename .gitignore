@@ -1,7 +1,11 @@
 .DS_Store
 node_modules
 /build
+/functions
 /.svelte-kit
+/.netlify
+.netlify/
+.svelte-kit/
 /package
 .env
 .env.*
