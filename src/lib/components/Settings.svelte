@@ -15,8 +15,8 @@
 	];
 
 	let smartness = [
-		{ id: 'text-davinci-003', text: `Inteligente` },
-		{ id: 'text-ada-001', text: `No tanto` }
+		{ id: 'gpt-3.5-turbo-instruct', text: `Inteligente` },
+		{ id: 'babbage-002', text: `No tanto` }
 	];
 </script>
 
